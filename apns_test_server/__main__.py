@@ -1,10 +1,6 @@
 import asyncio
 from handlers import request_handler
-
-# OPTIONS
-
-HOSTNAME = "127.0.0.1"
-PORT = 8889
+from settings import HOSTNAME, PORT
 
 # BOILERPLATE from python docs
 

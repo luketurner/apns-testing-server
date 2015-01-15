@@ -1,12 +1,7 @@
 import asyncio
 from struct import unpack, pack
 from typedefs import ErrorCode, ItemType, Item, Frame, ParseException
-
-# OPTIONS
-
-HOSTNAME = "127.0.0.1"
-PORT = 8889
-RESPONSE_TIME_MS = 250
+from settings import RESPONSE_TIME_MS
 
 # RESPONSE GENERATION
 
