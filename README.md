@@ -3,9 +3,14 @@ A Python server implementation of APNS v2, for use in client debugging. Note, cu
 
 Usage:
 
+```bash
   python apns_test_server # run the server
+```
 
 Testing:
 
-  python apns_test_server & # run the server
+```bash
+  python apns_test_server > example.log & # run the server
   python test_client.py # send a valid sample request
+  cat example.log
+```
